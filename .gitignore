@@ -1,0 +1,56 @@
+# Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Binaries
+bin/
+
+# Dependency directories
+vendor/
+
+# Go module files
+go.sum
+
+# IDE and editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Environment variables file
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Temporary files
+tmp/
+
+# React build artifacts
+/web/node_modules/
+/web/.next/
+/web/build/
+/web/.cache/
+
+# React configuration files
+/web/.env
+/web/.env.local
+/web/.env.*.local
+
+# Editor-specific files
+/web/.vscode/
+
+# npm and yarn lock files
+# /web/package-lock.json
+# /web/yarn.lock
